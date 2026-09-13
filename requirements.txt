@@ -1,0 +1,6 @@
+groq
+ddgs
+streamlit
+python-dotenv
+pandas
+ipykernel
