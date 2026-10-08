@@ -53,26 +53,15 @@ def planner_node(state:ResearchState)->ResearchState:
         "sub_questions":sub_questions
     }
 #Test
-
 if __name__ == "__main__":
-
-   test_state: ResearchState = {
-        "question": "What are current pricing strategies of AI note-taking apps?",
-        "sub_questions": []
+    test_state = {
+        "question": "What are the current pricing strategies of AI note-taking apps?",
+        "sub_questions": [],
+        "findings": [],
+        "draft": "",
+        "citations": [],
+        "critique": None,
+        "revision_count": 0,
+        "approved": False,
     }
-
-print("Input State:")
-print(test_state)
-
-result_state = planner_node(test_state)
-
-print("OUTPUT STATES")
-print(result_state)
-
-print("\nGenerated Sub-Questions:")
-
-for i, question in enumerate(
-        result_state["sub_questions"],
-        start=1
-    ):
-        print(f"{i}. {question}")
+    print(planner_node(test_state))
