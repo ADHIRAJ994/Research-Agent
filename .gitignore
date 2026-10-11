@@ -19,6 +19,7 @@ dist/
 */.ipynb_checkpoints/*
 test.iypnb
 .streamlit
+docs
 # Virtual environments
 venv/
 env/
