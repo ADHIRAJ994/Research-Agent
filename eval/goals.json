@@ -1,0 +1,17 @@
+[
+  {"id": "g01", "goal": "What are the current pricing strategies of AI note-taking apps?"},
+  {"id": "g02", "goal": "What are the tradeoffs between RAG and long-context LLMs for document question answering?"},
+  {"id": "g03", "goal": "What are the leading open-source frameworks for building multi-agent LLM systems?"},
+  {"id": "g04", "goal": "How do teams evaluate the quality of retrieval-augmented generation pipelines?"},
+  {"id": "g05", "goal": "What approaches reduce hallucination in LLM-based agents?"},
+  {"id": "g06", "goal": "Compare FAISS, Chroma, and Pinecone as vector database options for a small project."},
+  {"id": "g07", "goal": "What are the emerging trends in on-device LLM inference?"},
+  {"id": "g08", "goal": "How is the job market for entry-level machine learning engineers changing with agentic AI tools?"},
+  {"id": "g09", "goal": "What are the main differences between LangGraph and plain LangChain agents?"},
+  {"id": "g10", "goal": "What datasets and benchmarks are used to evaluate fraud detection models on imbalanced data?"},
+  {"id": "g11", "goal": "What are best practices for fine-tuning small transformer models for text classification?"},
+  {"id": "g12", "goal": "What are the regulatory considerations for deploying AI medical imaging tools in India?"},
+  {"id": "g13", "goal": "Is it a good time to build an AI startup right now?"},
+  {"id": "g14", "goal": "What is the best programming language to learn in 2026 for AI engineering?"},
+  {"id": "g15", "goal": "What are the main risks and benefits of AI coding assistants for long-term code maintainability?"}
+]
