@@ -1,0 +1,23 @@
+# Keep secrets, local environments, and build junk out of the image.
+.venv
+.git
+.gitignore
+__pycache__
+*.pyc
+.env
+.env.*
+!.env.example
+
+# Runtime and evaluation output
+data/index
+eval/results
+eval_results.csv
+
+# Not needed to run the app
+rag_eval
+docs
+assets
+README.md
+*.ipynb
+.vscode
+.idea
