@@ -10,3 +10,5 @@ dotenv
 langchain_groq
 langchain_huggingface
 sentence-transformers
+pypdf
+chardet
