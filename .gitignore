@@ -1,39 +1,42 @@
-# Environment variables / secrets
+# --- Secrets -----------------------------------------------------------
 .env
-*.env
 .env.*
+!.env.example
+.streamlit/secrets.toml
 
-# Python
+# --- Python ------------------------------------------------------------
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
-.Python
+.venv/
+venv/
+env/
 build/
 dist/
 *.egg-info/
-.python-version
-/data
-# Jupyter
-.ipynb_checkpoints/
-*/.ipynb_checkpoints/*
-test.iypnb
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
 .streamlit
-# Virtual environments
-venv/
-env/
-.venv/
-uv.lock
-# Streamlit
-.streamlit/secrets.toml
+# --- Notebooks ---------------------------------------------------------
+.ipynb_checkpoints/
 
-# Benchmark outputs (regenerate, don't commit)
+# --- Generated at runtime (rebuilt automatically) -----------------------
+# The FAISS index is rebuilt from data/knowledge_base/ on first run.
+# Keep data/knowledge_base/ tracked: the app and the Docker image need it.
+data/index/
+data/
+eval/results/
 eval_results.csv
 
-# OS / editor
+# --- Belongs to other projects or too large to commit --------------------
+rag_eval/
+docs/
+
+# --- OS and editors ----------------------------------------------------
 .DS_Store
+Thumbs.db
 .vscode/
 .idea/
-
-# Logs
 *.log
